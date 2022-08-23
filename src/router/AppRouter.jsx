@@ -21,7 +21,7 @@ export const AppRouter = () => {
           :<Route path="/JournalApp/auth/*" element={<AuthRoutes/>} />
         }
         <Route path="/JournalApp/*" element={<Navigate to="/JournalApp/auth/login"/>} />
-        
+        <Route path="/*" element={<Navigate to="/JournalApp/"/>} />
     </Routes>
   )
 }
