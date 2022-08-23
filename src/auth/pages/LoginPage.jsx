@@ -73,7 +73,7 @@ export const LoginPage = () => {
               </Grid>
             </Grid>
             <Grid container direction='row' justifyContent='end'>
-              <Link component={RouterLink} color='inherit' to="/auth/register">
+              <Link component={RouterLink} color='inherit' to="/JournalApp/auth/register">
                 Crear una cuenta
               </Link>             
                

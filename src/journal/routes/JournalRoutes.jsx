@@ -4,8 +4,8 @@ import { JournalPage } from "../pages/JournalPage"
 export const JournalRoutes = () => {
   return (
     <Routes>
-        <Route path="/JounalApp/" element={<JournalPage/>} />
-        <Route path="/JournalApp/*" element={<Navigate to="/JounalApp/"/>} />
+        <Route path="/" element={<JournalPage/>} />
+        <Route path="/*" element={<Navigate to="/JournalApp/"/>} />
     </Routes>
   )
 }
