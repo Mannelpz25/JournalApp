@@ -9,9 +9,9 @@ import './styles.css'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Provider store={ store }>
-      <HashRouter>
+      <BrowerRouter>
         <JournalApp />
-      </HashRouter>
+      </BrowerRouter>
     </Provider>   
   </React.StrictMode>
 )
